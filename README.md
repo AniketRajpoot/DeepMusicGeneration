@@ -5,3 +5,5 @@ While the original Transformer allows us to capture self-reference through atten
 
 The model is powerful enough, that it learns abstractions of data on its own, without much human-imposed domain knowledge or constraints. In contrast with this general approach,
 our implementation shows that Transformers can do even better for music modeling, when we improve the way a musical score is converted into the data fed to a Transformer model.
+
+This work is further continued in the `master` branch.
