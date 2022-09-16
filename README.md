@@ -48,6 +48,8 @@ This project was made possible with previous contributions referenced below:
   <li> https://streamlit.io/ </li>
 </ol>
 
+## Methodology <a name="methods"></a> 
+
 ### Tasks <a name="tasks"></a>
 
 We perform following music related tasks and also provide the code for the same : 
@@ -57,8 +59,6 @@ We perform following music related tasks and also provide the code for the same 
 - [:heavy_check_mark:] [Music Harmonization : **Seq-2-Seq Transformer**](Headline_generation_code/)  
 
 By combining all the models in a singular pipeline, full potential of all the models can be unleashed and on can compose a complete song! 
-
-## Methodology <a name="methods"></a> 
 
 ### Preprocessing <a name="preproc"></a>
 
