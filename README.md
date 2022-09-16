@@ -1,6 +1,10 @@
 # DeepMusicGeneration
 
-[**Sample outputs**](https://drive.google.com/drive/folders/18_Ze8gJir6F3feQV6egZzNdmrrLYTYh8?usp=sharing) | [**Video demo**](https://player.vimeo.com/video/709351568?h=8ea1cae660&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479) | [**PDF report**](https://drive.google.com/file/d/11x6lg66kgqX9fL7dy3ZyMIyFBjW8aK-0/view?usp=sharing)
+Exploring endless possiblilties to generate music using deep learning!  
+
+[**Sample outputs**](https://drive.google.com/drive/folders/18_Ze8gJir6F3feQV6egZzNdmrrLYTYh8?usp=sharing) | [**Video demo**](https://player.vimeo.com/video/709351568?h=8ea1cae660&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479) | [**PDF report**](https://drive.google.com/file/d/11x6lg66kgqX9fL7dy3ZyMIyFBjW8aK-0/view?usp=sharing)  
+
+![Screenshot](screeenshots/app_1.png)  
 
 ## Table of Contents
 * [Introduction](#intro)
@@ -46,19 +50,23 @@ This project was made possible with previous contributions referenced below:
 
 ### Tasks <a name="tasks"></a>
 
+We perform following music related tasks and also provide the code for the same : 
+
+- [:heavy_check_mark:] [Music Generation : **Transformer-XL**](Text_classification_code/)  
+- [:heavy_check_mark:] [Music Remixing : **MusicBERT**](Brand_and_sentiment_identification_code/)  
+- [:heavy_check_mark:] [Music Harmonization : **Seq-2-Seq Transformer**](Headline_generation_code/)  
+
+By combining all the models in a singular pipeline, full potential of all the models can be unleashed and on can compose a complete song! 
+
 ## Methodology <a name="methods"></a> 
 
 ### Preprocessing <a name="preproc"></a>
 
 ### Models <a name="models"></a>
 
-We provide following models for various tasks mentioned in the tasks section : 
-
-- :white_check_mark: [Music Generation : **Transformer-XL**](Text_classification_code/)
-- :white_check_mark: [Music Remixing : **MusicBERT**](Brand_and_sentiment_identification_code/)
-- :white_check_mark: [Headline Generation : **Seq-2-Seq Transformer**](Headline_generation_code/)
-
 ## Dataset <a name="dataset"></a> 
+
+All the 3 models are pretrained using [LakhMIDI](https://colinraffel.com/projects/lmd/) dataset. Due to limited resources we were only able to train small models for music generation and music harmonization but musicBERT is a large model pretrained on the whole dataset. More about this [here](https://github.com/microsoft/muzic/tree/main/musicbert). 
 
 ## Training <a name="training"></a> 
 
@@ -66,4 +74,10 @@ We provide following models for various tasks mentioned in the tasks section :
 
 ### Pretrained models <a name="modellinks"></a> 
 
+We provide pretrained checkpoints for the following models used to perform various tasks mentioned in the tasks section : 
+
+
+
 ## Running Streamlit app <a name="streamlitapp"></a> 
+
+
