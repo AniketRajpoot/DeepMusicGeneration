@@ -77,6 +77,30 @@ All the 3 models are pretrained using [LakhMIDI](https://colinraffel.com/project
 We provide pretrained checkpoints for the following models used to perform various tasks mentioned in the tasks section : 
 
 
+### **Deep Music Generator**
+
+The model is trained on a subset of LakhMIDI dataset with genre conditioning.
+
+Run the following command:
+```
+gdown --id 1LJKXFEap9YrQ7Md4S38CD5ergr1jRVML
+```
+Alternatively, the link to the same is given below:
+```
+https://drive.google.com/file/d/1LJKXFEap9YrQ7Md4S38CD5ergr1jRVML/view?usp=sharing
+```
+
+### **Deep Mask Modelling**
+
+Run the following command:
+```
+!gdown --id 1lWR0VDT8jz_CbkCI8xBrlXyk8dAidH7t
+```
+Alternatively, the link to the same is given below:
+```
+https://drive.google.com/file/d/1lWR0VDT8jz_CbkCI8xBrlXyk8dAidH7t/view?usp=sharing
+```
+
 
 ## Running Streamlit app <a name="streamlitapp"></a> 
 
