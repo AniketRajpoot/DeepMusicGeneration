@@ -57,7 +57,7 @@ We perform following music related tasks and also provide the code for the same 
 - [:heavy_check_mark:] [Music Generation : **Transformer-XL**](/)  
 - [:heavy_check_mark:] [Music Remixing : **BERT**](/)  
 - [:white_circle:] [Music Harmonization](/) 
-- [:white_circle:] [Music rEMIXING : **MusicBERT**](/)  
+- [:white_circle:] [Music Remixing : **MusicBERT**](/)  
 - [:white_circle:] [Pipeline Construction](/)  
 - [:white_circle:] [Support for VST plugin](/)  
 
