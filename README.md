@@ -55,11 +55,11 @@ This project was made possible with previous contributions referenced below:
 We perform following music related tasks and also provide the code for the same : 
 
 - [:heavy_check_mark:] [Music Generation : **Transformer-XL**](/)  
-- [:heavy_check_mark:] [Music Remixing : **MusicBERT**](/)  
-- [:white_circle:] [Music Harmonization](/)  
+- [:heavy_check_mark:] [Music Remixing : **BERT**](/)  
+- [:white_circle:] [Music Harmonization](/) 
+- [:white_circle:] [Music rEMIXING : **MusicBERT**](/)  
 - [:white_circle:] [Pipeline Construction](/)  
 - [:white_circle:] [Support for VST plugin](/)  
-
 
 By combining all the models in a singular pipeline, full potential of all the models can be unleashed and on can compose a complete song! 
 
