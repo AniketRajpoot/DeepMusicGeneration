@@ -54,9 +54,12 @@ This project was made possible with previous contributions referenced below:
 
 We perform following music related tasks and also provide the code for the same : 
 
-- [:heavy_check_mark:] [Music Generation : **Transformer-XL**](Text_classification_code/)  
-- [:heavy_check_mark:] [Music Remixing : **MusicBERT**](Brand_and_sentiment_identification_code/)  
-- [:heavy_check_mark:] [Music Harmonization : **Seq-2-Seq Transformer**](Headline_generation_code/)  
+- [:heavy_check_mark:] [Music Generation : **Transformer-XL**](/)  
+- [:heavy_check_mark:] [Music Remixing : **MusicBERT**](/)  
+- [:white_circle:] [Music Harmonization](/)  
+- [:white_circle:] [Pipeline Construction](/)  
+- [:white_circle:] [Support for VST plugin](/)  
+
 
 By combining all the models in a singular pipeline, full potential of all the models can be unleashed and on can compose a complete song! 
 
@@ -64,18 +67,7 @@ By combining all the models in a singular pipeline, full potential of all the mo
 
 ### Models <a name="models"></a>
 
-## Dataset <a name="dataset"></a> 
-
-All the 3 models are pretrained using [LakhMIDI](https://colinraffel.com/projects/lmd/) dataset. Due to limited resources we were only able to train small models for music generation and music harmonization but musicBERT is a large model pretrained on the whole dataset. More about this [here](https://github.com/microsoft/muzic/tree/main/musicbert). 
-
-## Training <a name="training"></a> 
-
-## Evaluation <a name="eval"></a> 
-
-### Pretrained models <a name="modellinks"></a> 
-
 We provide pretrained checkpoints for the following models used to perform various tasks mentioned in the tasks section : 
-
 
 ### **Deep Music Generator**
 
@@ -100,6 +92,16 @@ Alternatively, the link to the same is given below:
 ```
 https://drive.google.com/file/d/1lWR0VDT8jz_CbkCI8xBrlXyk8dAidH7t/view?usp=sharing
 ```
+
+## Dataset <a name="dataset"></a> 
+
+All the 3 models are pretrained using [LakhMIDI](https://colinraffel.com/projects/lmd/) dataset. Due to limited resources we were only able to train small models for music generation and music harmonization but musicBERT is a large model pretrained on the whole dataset. More about this [here](https://github.com/microsoft/muzic/tree/main/musicbert). 
+
+## Training <a name="training"></a> 
+
+## Evaluation <a name="eval"></a> 
+
+
 
 
 ## Running Streamlit app <a name="streamlitapp"></a> 
