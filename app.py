@@ -13,7 +13,7 @@ from midi2audio import FluidSynth
 
 import warnings
 warnings.filterwarnings('ignore')
-# import bs4
+
 
 # '''
 #     TODO :
@@ -22,6 +22,7 @@ warnings.filterwarnings('ignore')
 #     2) In the genre continuation UI, add slider for Instrument Temperature & Output BPM and dropdown for Genre
 #     3) Complete the note remixing section and embedd the required model 
 #     4) What to do about s2s ? 
+#     5) Update the application to a good framework 
 # '''
 
 if __name__ == '__main__':
